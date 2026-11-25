@@ -1,0 +1,10 @@
+# Entry for the community plugin list https://github.com/awesome-dsh-plugin/awesome-dsh-plugin
+# Submit as: data/plugins/youyouiooi__dsh-mcp-skill-hub.yml
+# Rule reminder: the repository must be at least 1 day old before the PR passes CI.
+url: https://github.com/youyouiooi/dsh-mcp-skill-hub
+name: youyouiooi/dsh-mcp-skill-hub
+category: tools
+description:
+  en: Sidebar panel that manages MCP server connections and agent skills, with status, enable/disable, reconnect and JSON editing.
+  zh: 侧边栏面板，统一管理 MCP 连接与 Agent 技能，支持状态查看、启停、重连与 JSON 编辑。
+tarball: https://github.com/youyouiooi/dsh-mcp-skill-hub/releases/download/v1.0.0/dsh-mcp-skill-hub-1.0.0.tgz
