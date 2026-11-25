@@ -30,11 +30,14 @@ DSH 插件管理里添加本仓库即可（推荐固定版本或 commit，便于
 "dsh-mcp-skill-hub": "github:youyouiooi/dsh-mcp-skill-hub"
 ```
 
-或按 commit 锁定：
+或按 commit / tag 锁定：
 
 ```jsonc
-"dsh-mcp-skill-hub": "github:youyouiooi/dsh-mcp-skill-hub#<commit-sha>"
+"dsh-mcp-skill-hub": "github:youyouiooi/dsh-mcp-skill-hub#v1.0.0"
 ```
+
+不想从源码安装时，直接用 [Releases](https://github.com/youyouiooi/dsh-mcp-skill-hub/releases) 里的预构建包
+`dsh-mcp-skill-hub-1.0.0.tgz`（插件管理 → 安装本地 bundle / 压缩包）。
 
 本地开发：把插件目录 `link:` 进 profile，或直接用插件管理的「安装本地 bundle」指向该目录。
 
