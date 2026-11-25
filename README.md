@@ -6,6 +6,16 @@ One sidebar panel for **MCP connections** and **Agent skills** in DeepSeek Harne
 > 不依赖 `dsh-mcp-connector`：MCP 管理直接走 DSH 核心的 `@deepseek-ai/dsh-mcp-client`，连接器可以停用。
 > No dependency on `dsh-mcp-connector` — MCP management talks to the core `@deepseek-ai/dsh-mcp-client` directly, so the connector can stay disabled.
 
+## 界面截图 / Screenshots
+
+**MCP 连接 / MCP connections** — 每条连接的状态、已注册工具数，以及启用 / 重连 / 编辑配置操作：
+
+![MCP connections](docs/screenshots/mcp-connections.jpg)
+
+**Skills 技能 / Skills** — 技能列表、来源标签（`bundled` / `user-agents` / `user-dsh`）与 `SKILL.md` 内容预览：
+
+![Skills](docs/screenshots/skills.jpg)
+
 ## 功能 / Features
 
 **MCP 标签页**
