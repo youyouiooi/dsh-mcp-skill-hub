@@ -1,0 +1,7 @@
+# MCP 与技能管理面板（DSH Bundle patch）
+# 独立管理核心 @deepseek-ai/dsh-mcp-client 连接，不依赖 dsh-mcp-connector。
+# Skills 页签提供技能的浏览、查看、新建、删除与打开所在目录。
+- insert:
+    - id: mcp-skill-hub
+      name: 'dsh-mcp-skill-hub'
+      config: {}
